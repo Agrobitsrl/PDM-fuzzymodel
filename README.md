@@ -12,7 +12,7 @@ For every day of the season and every configured crop–pest pair, the model
 computes a 0–100 infection-risk score and a risk class (Low, Moderate, High,
 Critical), turning weather and agronomic knowledge into actionable, site-specific
 guidance on when monitoring or treatment is warranted. It supports 18 fruit, nut
-and vine crops, with cherry as the primary SmartCherry use case.
+and vine crops.
 
 Pipeline: weather + crop–pest rule base + pest biological parameters → feature
 engineering (GDD accumulation, leaf-wetness estimation, moving averages, streaks)
