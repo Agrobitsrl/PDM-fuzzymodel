@@ -1,0 +1,798 @@
+{
+  "Almond": {
+    "Myzus persicae": {
+      "label": "Green peach aphid",
+      "t_base": 5.0,
+      "t_lethal_min": -2.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 26.0,
+      "t_lethal_max": 30.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        80,
+        1200
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Taphrina deformans": {
+      "label": "Peach leaf curl",
+      "t_base": 5.0,
+      "t_optimal_min": 7.0,
+      "t_optimal_max": 20.0,
+      "t_lethal_max": 30.0,
+      "min_streak": 2,
+      "min_wetness_hours_critical": 15.0,
+      "phenology_window_gdd": [
+        80,
+        400
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 4.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 23.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        80,
+        1350
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Capnodis tenebrionis": {
+      "label": "Flat-headed rootborer",
+      "t_base": 15.0,
+      "t_lethal_min": 0.0,
+      "t_optimal_min": 25.0,
+      "t_optimal_max": 35.0,
+      "t_lethal_max": 42.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        500,
+        1600
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monosteira unicostata": {
+      "label": "Almond false tiger",
+      "t_base": 10.0,
+      "t_lethal_min": 5.0,
+      "t_optimal_min": 28.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 42.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        720,
+        2430
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Apple": {
+    "Cydia pomonella": {
+      "label": "Codling moth",
+      "t_base": 10.0,
+      "t_upper_threshold": 31.0,
+      "t_lethal_min": -10.0,
+      "t_optimal_min": 18.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 38.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        720,
+        2690
+      ],
+      "gdd_first_flight": 250,
+      "gdd_peak_first_gen": 468,
+      "gdd_second_flight": 900,
+      "pheno_t_base": 5.0
+    },
+    "Venturia inaequalis": {
+      "label": "Apple scab",
+      "t_base": 5.0,
+      "t_optimal_min": 18.0,
+      "t_optimal_max": 24.0,
+      "t_lethal_max": 33.0,
+      "min_streak": 2,
+      "min_wetness_hours_critical": 6,
+      "min_wetness_hours_high": 9,
+      "phenology_window_gdd": [
+        100,
+        800
+      ],
+      "mills_table_reference": "Mills (1944) + MacHardy & Gadoury (1989) revision: 18°C→6-9h, 15°C→12-16h, 12°C→20-24h, 9°C→32h",
+      "pheno_t_base": 5.0
+    }
+  },
+  "Apricot": {
+    "Anarsia lineatella": {
+      "label": "Peach twig borer",
+      "t_base": 10.0,
+      "t_lethal_min": -5.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 38.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        500,
+        2160
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Drosophila suzukii": {
+      "label": "Spotted wing drosophila",
+      "t_base": 7.2,
+      "t_lethal_min": 2.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        340,
+        1780
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1400
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Avocado": {
+    "Colletotrichum gloeosporioides": {
+      "label": "Avocado anthracnose",
+      "t_base": 12.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Oligonychus perseae": {
+      "label": "Persea mite",
+      "t_base": 10.0,
+      "t_optimal_min": 28.0,
+      "t_optimal_max": 35.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Pseudacysta perseae": {
+      "label": "Avocado lace bug",
+      "t_base": 10.0,
+      "t_optimal_min": 25.0,
+      "t_optimal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1800
+      ],
+      "pheno_t_base": 10.0
+    }
+  },
+  "Banana": {
+    "Pseudocercospora fijiensis": {
+      "label": "Black Sigatoka",
+      "t_base": 13.0,
+      "t_optimal_min": 25.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 3,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 13.0
+    }
+  },
+  "Cherry": {
+    "Drosophila suzukii": {
+      "label": "Spotted wing drosophila",
+      "t_base": 7.2,
+      "t_lethal_min": 2.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        340,
+        1210
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        900
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Rhagoletis cerasi": {
+      "label": "Cherry fruit fly",
+      "t_base": 5.0,
+      "t_optimal_min": 18.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 1,
+      "gdd_emergence_threshold": 430,
+      "gdd_peak_emergence": 550,
+      "gdd_oviposition_end": 700,
+      "phenology_window_gdd": [
+        430,
+        800
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Citrus": {
+    "Aphis spiraecola": {
+      "label": "Green citrus aphid",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        50,
+        640
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Ceratitis capitata": {
+      "label": "Mediterranean fruit fly",
+      "t_base": 10.0,
+      "t_lethal_min": 5.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "gdd_first_generation": 250,
+      "phenology_window_gdd": [
+        200,
+        1600
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Eutetranychus orientalis": {
+      "label": "Oriental mite",
+      "t_base": 10.0,
+      "t_optimal_min": 28.0,
+      "t_optimal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        200,
+        1400
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Panonychus citri": {
+      "label": "Citrus red mite",
+      "t_base": 10.0,
+      "t_optimal_min": 27.0,
+      "t_optimal_max": 35.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1400
+      ],
+      "pheno_t_base": 10.0
+    }
+  },
+  "Cocoa": {
+    "Moniliophthora roreri": {
+      "label": "Frosty pod rot",
+      "t_base": 15.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "min_streak": 3,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 15.0
+    },
+    "Phytophthora palmivora and P. megakarya": {
+      "label": "Black pod disease",
+      "t_base": 10.0,
+      "t_optimal_min": 25.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 15.0
+    }
+  },
+  "Coffee": {
+    "Hemileia vastatrix": {
+      "label": "Coffee leaf rust",
+      "t_base": 10.0,
+      "t_optimal_min": 21.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_min": 13.0,
+      "t_lethal_max": 31.0,
+      "min_streak": 2,
+      "min_free_water_hours": 24,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Colletotrichum kahawae": {
+      "label": "Coffee berry disease",
+      "t_base": 10.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 28.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    }
+  },
+  "Guava": {
+    "Colletotrichum gloeosporioides": {
+      "label": "Guava anthracnose",
+      "t_base": 12.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 30.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Bactrocera dorsalis and B. zonata": {
+      "label": "Guava fruit fly",
+      "t_base": 10.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 32.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        200,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    }
+  },
+  "Hazelnut": {
+    "Halyomorpha halys": {
+      "label": "Brown marmorated stink bug",
+      "t_base": 14.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 38.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        500,
+        1600
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1200
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Mango": {
+    "Colletotrichum gloeosporioides": {
+      "label": "Mango anthracnose",
+      "t_base": 12.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Bactrocera dorsalis and B. zonata": {
+      "label": "Mango fruit fly",
+      "t_base": 10.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 32.0,
+      "t_lethal_max": 40.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        300,
+        9999
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Oidium mangiferae": {
+      "label": "Mango powdery mildew",
+      "t_base": 10.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 2,
+      "wetness_effect": "Moderate — some wetness needed for spore germination, unlike Erysiphe necator",
+      "phenology_window_gdd": [
+        150,
+        600
+      ],
+      "pheno_t_base": 10.0
+    }
+  },
+  "Olive": {
+    "Bactrocera oleae": {
+      "label": "Olive fly",
+      "t_base": 10.0,
+      "t_lethal_min": 5.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 27.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        1070,
+        2690
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Prays oleae": {
+      "label": "Olive moth",
+      "t_base": 9.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 30.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        380,
+        2450
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Venturia oleaginea": {
+      "label": "Olive leaf spot (Spilocea oleagina)",
+      "t_base": 5.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 20.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        100,
+        1200
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Colletotrichum gloeosporioides": {
+      "label": "Olive anthracnose",
+      "t_base": 12.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 30.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        3100,
+        3900
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Pseudomonas savastanoi": {
+      "label": "Olive knot",
+      "t_base": 5.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 22.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        600
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Pseudocercospora cladosporioides": {
+      "label": "Cercospora leaf spot",
+      "t_base": 5.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 22.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        100,
+        1200
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Papaya": {
+    "Colletotrichum gloeosporioides": {
+      "label": "Papaya anthracnose",
+      "t_base": 12.0,
+      "t_optimal_min": 24.0,
+      "t_optimal_max": 30.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        0,
+        9999
+      ],
+      "pheno_t_base": 12.0
+    }
+  },
+  "Peach": {
+    "Taphrina deformans": {
+      "label": "Peach leaf curl",
+      "t_base": 5.0,
+      "t_optimal_min": 10.0,
+      "t_optimal_max": 20.0,
+      "t_lethal_max": 30.0,
+      "min_streak": 2,
+      "min_wetness_hours_critical": 12.5,
+      "phenology_window_gdd": [
+        30,
+        380
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Myzus persicae": {
+      "label": "Green peach aphid",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 30.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        80,
+        1200
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Ceratitis capitata": {
+      "label": "Mediterranean fruit fly",
+      "t_base": 10.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        720,
+        2690
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Drosophila suzukii": {
+      "label": "Spotted wing drosophila",
+      "t_base": 7.2,
+      "t_lethal_min": 2.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 28.0,
+      "t_lethal_max": 32.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        340,
+        1780
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1400
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Pear": {
+    "Cydia pomonella": {
+      "label": "Codling moth",
+      "t_base": 10.0,
+      "t_upper_threshold": 31.0,
+      "t_optimal_min": 18.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 1,
+      "gdd_first_flight": 250,
+      "phenology_window_gdd": [
+        720,
+        2690
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Erwinia amylovora": {
+      "label": "Fire blight",
+      "t_base": 18.0,
+      "t_optimal_min": 21.0,
+      "t_optimal_max": 27.0,
+      "t_lethal_max": 37.0,
+      "min_streak": 1,
+      "model_reference": "Maryblyt (Cougarblight): threshold 18°C minimum + wet period",
+      "phenology_window_gdd": [
+        200,
+        1400
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Pistachio": {
+    "Alternaria alternata": {
+      "label": "Alternaria late blight",
+      "t_base": 10.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        490,
+        2000
+      ],
+      "pheno_t_base": 7.0
+    },
+    "Agonoscena pistaciae": {
+      "label": "Pistachio psylla",
+      "t_base": 10.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 30.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        320,
+        2000
+      ],
+      "pheno_t_base": 7.0
+    }
+  },
+  "Plum": {
+    "Monilia spp": {
+      "label": "Brown rot",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        100,
+        1400
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Grapholita molesta": {
+      "label": "Oriental fruit moth",
+      "t_base": 10.0,
+      "t_optimal_min": 18.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 37.0,
+      "min_streak": 1,
+      "gdd_first_flight": 150,
+      "phenology_window_gdd": [
+        610,
+        2430
+      ],
+      "pheno_t_base": 5.0
+    },
+    "Anarsia lineatella": {
+      "label": "Peach twig borer",
+      "t_base": 10.0,
+      "t_optimal_min": 22.0,
+      "t_optimal_max": 28.0,
+      "min_streak": 1,
+      "phenology_window_gdd": [
+        500,
+        2160
+      ],
+      "pheno_t_base": 5.0
+    }
+  },
+  "Vineyard": {
+    "Plasmopora viticola": {
+      "label": "Downy mildew",
+      "t_base": 8.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 33.0,
+      "min_streak": 2,
+      "goidanich_rule": "T>11°C + RH>90% + rainfall>10mm in 24-48h after BBCH 12",
+      "phenology_window_gdd": [
+        150,
+        1200
+      ],
+      "rain_window_days": 1,
+      "pheno_t_base": 10.0
+    },
+    "Cryptoblabes gnidiella": {
+      "label": "Honeydew moth",
+      "t_base": 12.26,
+      "t_optimal_min": 25.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 1,
+      "gdd_first_generation": 250,
+      "gdd_second_generation": 800,
+      "gdd_third_generation": 1375,
+      "phenology_window_gdd": [
+        600,
+        1400
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Uncinula necator": {
+      "label": "Powdery mildew",
+      "t_base": 5.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 30.0,
+      "t_lethal_max": 36.0,
+      "min_streak": 2,
+      "wetness_effect": "INHIBITORY — leaf wetness reduces conidial germination",
+      "phenology_window_gdd": [
+        100,
+        1200
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Botrytis cinerea": {
+      "label": "Grey mold",
+      "t_base": 0.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 25.0,
+      "t_lethal_max": 35.0,
+      "min_streak": 2,
+      "min_wetness_hours_critical": 15,
+      "two_fifteens_rule": "15°C + 15h continuous leaf wetness → epidemic threshold",
+      "phenology_window_gdd": [
+        500,
+        1400
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Phomopsis viticola": {
+      "label": "Phomopsis cane and leaf spot",
+      "t_base": 5.0,
+      "t_optimal_min": 15.0,
+      "t_optimal_max": 25.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        80,
+        400
+      ],
+      "pheno_t_base": 10.0
+    },
+    "Guignardia bidwelli": {
+      "label": "Black rot",
+      "t_base": 10.0,
+      "t_optimal_min": 20.0,
+      "t_optimal_max": 28.0,
+      "min_streak": 2,
+      "phenology_window_gdd": [
+        100,
+        900
+      ],
+      "pheno_t_base": 10.0
+    }
+  }
+}
