@@ -4,9 +4,7 @@ Agrobit S.r.l. — SmartCherry sub-innovation project (SIP10, code RZTHQ),
 OpenAgri Open Call, Horizon Europe Grant Agreement No. 101134083.
 
 Open-source, multi-crop fuzzy-logic engine that estimates **daily pest and
-disease infection risk** from weather data and crop phenology. It provides the
-decision logic of the OpenAgri Pest & Disease Management service integrated into
-the iAgro ADS.
+disease infection risk** from weather data and crop phenology.
 
 ## What it does
 
